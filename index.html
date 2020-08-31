@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Name Variations</h1>
+    <div>
+        <label for="input-name">Enter your name</label>
+        <input type="text" id="input-name">
+    </div>
+
+    <table>
+        <thead>
+            <th>Variation</th>
+            <th>Result</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Number of characters</td>
+                <td id="number-result"></td>        
+            </tr>
+            <tr>
+                <td>First character</td>
+                <td id="first-result"></td>
+            </tr>
+            <tr>
+                <td>Last character</td>
+                <td id="last-result"></td>
+            </tr>
+            <tr>
+                <td>Lower case</td>
+                <td id="lower-result"></td>
+            </tr>
+            <tr>
+                <td>Upper case</td>
+                <td id="upper-result"></td>
+            </tr>
+            <tr>
+                <td>Capitalize</td>
+                <td id="capitalize-result"></td>
+            </tr>
+            <tr>
+                <td>Without leading and trailing spaces</td>
+                <td id="spaces-result"></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="./index.js"></script>
+</body>
+</html>
